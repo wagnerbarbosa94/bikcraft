@@ -1,5 +1,6 @@
 :root {
     --cor-yellow: #ffbb00;
+    --cor-branco: #ffffff;
 }
 
 .cor-y {
@@ -9,3 +10,16 @@
 .cor-cinza {
     color: #595959;
 }
+
+.cor-c-clara {
+    color: #b2b2b2;
+}
+
+.cor-branca {
+    color: #ffffff;
+}
+
+.cor-preta {
+    background-color: #000000;
+}
+
