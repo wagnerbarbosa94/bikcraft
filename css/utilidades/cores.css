@@ -1,5 +1,8 @@
 :root {
     --cor-yellow: #ffbb00;
+    --cor-yellow1: #e4a30a;
+    --cor-yellow2: #664400;
+    --cor-yellow3: #332200;
     --cor-branco: #ffffff;
     --cor-c-claro: #b2b2b2;
     --cor-c-white: #ededed;
@@ -9,6 +12,13 @@
     color:#ffbb00;
 }
 
+.cor-y2 {
+    color: #664400;;
+}
+
+.cor-y3 {
+    color: #332200;;
+}
 .cor-cinza {
     color: #595959;
 }
