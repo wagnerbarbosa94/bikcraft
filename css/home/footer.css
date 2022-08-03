@@ -19,6 +19,11 @@ footer {
     display: flex;
 }
 
+.midias ul {
+	display: flex;
+	gap: 32px;
+}
+
 .footer ul, li {
     margin-bottom: 20px;
 }
