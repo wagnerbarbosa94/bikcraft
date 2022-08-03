@@ -1,0 +1,88 @@
+.seguros-bg {
+    background: var(--cor-preto1);
+    padding: 60px 40px;
+}
+
+.seguros-bg h2 {
+    margin-bottom: 60px;
+}
+.seguros-conteudo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+}
+
+.seguros-conteudo> div {
+    background: #000000;
+    color: #ffffff;
+    padding: 40px;
+    height: max-content;
+    padding-left: 60px;
+}
+
+.seguro-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.seguro-titulo h3 {
+    text-transform: uppercase;
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.seguro-titulo span {
+    position: relative;
+}
+
+.seguro-titulo span::after {
+    display: block;
+    content: "mensal";
+    position: absolute;
+    font: 400 0.75rem/1.35 "Poppins", sans-serif;
+    color: #9c9c9c;
+    right: 0px;
+}
+
+.seguros-conteudo ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.seguros-conteudo li {
+    display: flex;
+    align-items: center;
+}
+
+.seguros-conteudo li::before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: -20px;
+    width: 13px;
+    height: 9px;
+    background-image: url(../../img/icones/lista.svg);
+}
+
+.botao.secundario {
+    color: #ffffff;
+    background: #2e2e2e;
+}
+
+.botao.secundario:hover {
+    background-color: #404040;
+}
+
+.botao {
+    margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+    .seguros-conteudo {
+        grid-template-columns: 1fr;
+    }
+}

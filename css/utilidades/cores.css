@@ -4,6 +4,7 @@
     --cor-yellow2: #664400;
     --cor-yellow3: #332200;
     --cor-branco: #ffffff;
+    --cor-preto1: #111111;
     --cor-c-claro: #b2b2b2;
     --cor-c-white: #ededed;
 }
@@ -19,12 +20,21 @@
 .cor-y3 {
     color: #332200;;
 }
+
+.cor-p1 {
+    color: #111111;
+}
+
 .cor-cinza {
     color: #595959;
 }
 
-.cor-c-clara {
+.cor-c1 {
     color: #b2b2b2;
+}
+
+.cor-c2 {
+    color: #9c9c9c;
 }
 
 .cor-branca {
