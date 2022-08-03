@@ -15,8 +15,10 @@ footer {
     margin-bottom: 32px;
 }
 
-.midias {
+.midias ul{
     display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 .footer ul, li {
