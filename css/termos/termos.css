@@ -1,0 +1,20 @@
+
+.termos {
+    background-color: var(--cor-branco);
+    padding: 80px 20px;
+}
+
+.termos h2:first-child {
+    margin-top: 0px;
+}
+
+.termos h2 {
+    margin-top: 20px;
+}
+.termos h2, p {
+    margin-bottom: 20px;
+}
+
+.termos p {
+    max-width: 72ch;
+}
