@@ -1,0 +1,45 @@
+.bicicletas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bicicleta-conteudo {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-content: start;
+}
+
+.bicicletas h2 {
+    margin-bottom: 20px;
+}
+
+.bicicletas h2, .bicicletas p {
+    grid-column: 1/-1;
+}
+
+.bicicletas ul {
+    display: grid;
+    gap: 16px;
+}
+
+.botao.seta::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url(../../img/icones/seta.svg);
+    transition: transform 0.2s;
+}
+
+.botao.seta {
+    display: flex;
+    align-items: center;
+}
+
+.bicicletas a {
+    place-self: end;
+}
