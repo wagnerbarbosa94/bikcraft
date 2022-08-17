@@ -8,7 +8,9 @@
 @import url(./home/tecnologia.css);
 @import url(./home/parceiros.css);
 @import url(./home/depoimentos.css);
-@import url(./home/seguros.css);
+@import url(././seguros/seguros.css);
+@import url(./seguros/perguntas.css);
+@import url(./seguros/vantagens.css);
 @import url(./home/footer.css);
 @import url(./termos/termos.css);
 @import url(./bicicletas/bicicletas.css);

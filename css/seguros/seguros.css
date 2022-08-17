@@ -3,6 +3,9 @@
     padding: 60px 0px;
 }
 
+#seguros .seguros-bg {
+    padding-top: 0px;
+}
 .seguros-bg h2 {
     margin-bottom: 60px;
 }

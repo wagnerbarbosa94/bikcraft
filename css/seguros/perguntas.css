@@ -1,0 +1,48 @@
+.perguntas {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.perguntas h2 {
+    margin-bottom: 60px;
+}
+
+.perguntas-lista {
+    padding: 20px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.perguntas-lista:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+.perguntas-lista p {
+    max-width: 75ch;
+}
+
+.perguntas-lista h2 {
+    position: relative;
+}
+
+.perguntas-lista:before {
+    display:block;
+    content: "";
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor-yellow);
+    position: absolute;
+    left: 0;
+    top: 28px;
+}
+
+.perguntas-lista::after {
+    display:block;
+    content: "";
+    width: 12px;
+    height: 8px;
+    background: url(../../../img/icones/seta.svg);
+    position: absolute;
+    right: 0;
+    top: 28px;
+}
