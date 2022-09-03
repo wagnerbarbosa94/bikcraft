@@ -6,6 +6,7 @@
     <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.">
     <title>bicicletas Eletricas</title>
 
+    <link rel="preload" href="./css/style.css">
     <link rel="stylesheet" href="./css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,13 +17,13 @@
     <header class="header-bg">
         <div class="container header">
         <a href="./">
-            <img src="./img/bikcraft.svg" alt="bikcraft">
+            <img src="./img/bikcraft.svg" width="136" height="32" alt="bikcraft">
         </a>
             <nav aria-label="primaria">
                 <ul class="header-menu font-1-m">
                     <li><a href="./bicicletas.html">Bicicletas</a></li>
                     <li><a href="./seguros.html">Seguros</a></li>
-                    <li><a href="./contatos.html">Contato</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,9 +36,10 @@
                 <p class="font-2-l">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
                 <a class="botao" href="./compras.html">escolha a sua</a>
             </div>
-            <div>
-                <img src="./img/fotos/introducao.jpg" alt="bicicleta eletrica preta">
-            </div>
+            <picture>
+                <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
+                <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="bicicleta eletrica preta">
+            </picture>
         </div>
     </main>
 
@@ -47,7 +49,7 @@
         <ul>
             <li>
                 <a href="./bicicletas/magic.html">
-                <img src="./img/bicicletas/magic-home.jpg" alt="bicicleta preta">
+                <img src="./img/bicicletas/magic-home.jpg" width="920" height="1040" alt="bicicleta preta">
                 <h3 class="font-1-xl">Magic Might</h3>
                 <span class="font-2-m cor-cinza">R$ 2499</span>
                 </a>
@@ -55,7 +57,7 @@
 
             <li>
                 <a href="./bicicletas/nebula.html">
-                <img src="./img/bicicletas/nebula-home.jpg" alt="bicicleta preta">
+                <img src="./img/bicicletas/nebula-home.jpg" width="920" height="1040" alt="bicicleta preta">
                 <h3 class="font-1-xl">Nebula Cosmic</h3>
                 <span class="font-2-m cor-cinza">R$ 3999</span>
                 </a>
@@ -63,7 +65,7 @@
 
             <li>
                 <a href="./bicicletas/nimbus.html">
-                <img src="./img/bicicletas/nimbus-home.jpg" alt="bicicleta preta">
+                <img src="./img/bicicletas/nimbus-home.jpg" width="920" height="1040" alt="bicicleta preta">
                 <h3 class="font-1-xl">Nimbus Stark</h3>
                 <span class="font-2-m cor-cinza">R$ 4999</span>
                 </a>
@@ -81,12 +83,12 @@
             <a class="link" href="./bicicletas.html">escolha um modelo</a>
             <div class="tecnologia-vantagens">
             <div>
-                <img src="./img/icones/eletrica.svg" alt="">
+                <img src="./img/icones/eletrica.svg" width="32" height="32" alt="">
                 <h3 class="font-1 cor-branca">motor elétrico</h3>
                 <p class="font-2 cor-c1">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
             </div>
             <div>
-                <img src="./img/icones/rastreador.svg" alt="">
+                <img src="./img/icones/rastreador.svg" width="32" height="32" alt="">
                 <h3 class="font-1 cor-branca">rastreador</h3>
                 <p class="font-2 cor-c1">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
             </div>
